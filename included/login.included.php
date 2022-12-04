@@ -16,7 +16,7 @@ if (isset($_POST["submit"])) {
   loginUser($conn, $eusername, $epassword);
 }
 else {
-  header("location: ../Profile.php");
+  header("location: ../profile.php");
   exit();
 
 }
